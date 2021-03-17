@@ -11,6 +11,7 @@
 		"cheerio": "^1.0.0-rc.3",
 		"cli-error-notifier": "2.1.0",
 		"d3": "^5.9.7",
+		"etsy-js": "0.0.6",
 		"fs": "0.0.1-security",
 		"json-concat": "0.0.1",
 		"lodash.debounce": "4.0.8",
@@ -68,10 +69,9 @@
 		"serve": "light-server -q -o -s dev -p 4000 -w 'dev/*.css # # reloadcss' -w 'dev/*.js # #' -w 'dev/*.html # #' -w 'dev/assets/**/* # #'",
 		"dev": "run-p serve watch:*",
 		"start": "NODE_ENV=dev run-s build dev",
-		"downloadCallHTML": "node process/s1_downloadCallHTML.js",
-		"getCallLinks": "node process/s2_getCallLinks.js",
-		"downloadSingleCallHTML": "node process/s3_downloadSingleCallHTML.js",
-		"getCallText": "node process/s4_getCallText.js"
+		"getEtsy": "node process/s1.js",
+		"getIDs": "node process/s2.js",
+		"getImages": "node process/s3.js"
 	},
 	"repository": {
 		"type": "git",
