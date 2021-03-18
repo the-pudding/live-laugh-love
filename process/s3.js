@@ -9,7 +9,7 @@ let rawData = d3.csvParse(file);
 const rawDataLength = rawData.length;
 
 const etsyBase = 'https://openapi.etsy.com/v2/listings/';
-const etsyKeystring = 'o02rgsarzbewnum8cbcoe9p9';
+const etsyKeystring = '';
 
 function loopListings(listing) {
 	const listingID = listing.listingID;
