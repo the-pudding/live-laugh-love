@@ -5,7 +5,7 @@ const d3 = require('d3');
 const OUT_PATH = './output/listing_calls/'
 
 const etsyBase = 'https://openapi.etsy.com/v2/listings/active?api_key=';
-const etsyKeystring = 'o02rgsarzbewnum8cbcoe9p9'
+const etsyKeystring = ''
 const tags = 'live%20laugh%20love'
 const PAGE_NUMS = d3.range(1, 201)
 
