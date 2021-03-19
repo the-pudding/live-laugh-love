@@ -71,7 +71,8 @@
 		"start": "NODE_ENV=dev run-s build dev",
 		"getEtsy": "node process/s1.js",
 		"getIDs": "node process/s2.js",
-		"getImages": "node process/s3.js"
+		"getImages": "node process/s3.js",
+		"getImageLinks": "node process/s4.js"
 	},
 	"repository": {
 		"type": "git",

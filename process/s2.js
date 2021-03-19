@@ -7,7 +7,7 @@ const IN_PATH = './output/listing_calls/';
 const PAGE_NUMS = d3.range(1, 201);
 let idData = [];
 
-async function pullIDs(page) {
+function pullIDs(page) {
 	const file = fs.readFileSync(`${IN_PATH}page-${page}.json`, 'utf-8');
 	const rawData = JSON.parse(file)
 	const resultsData = rawData.results;
