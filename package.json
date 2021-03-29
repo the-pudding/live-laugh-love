@@ -15,6 +15,7 @@
 		"fs": "0.0.1-security",
 		"json-concat": "0.0.1",
 		"lodash.debounce": "4.0.8",
+		"node-tesseract-ocr": "^2.0.0",
 		"nouislider": "13.1.5",
 		"rimraf": "2.6.3",
 		"superagent": "5.0.5"
@@ -72,7 +73,8 @@
 		"getEtsy": "node process/s1.js",
 		"getIDs": "node process/s2.js",
 		"getImages": "node process/s3.js",
-		"getImageLinks": "node process/s4.js"
+		"getImageLinks": "node process/s4.js",
+		"getOCR": "node process/s5.js"
 	},
 	"repository": {
 		"type": "git",
