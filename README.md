@@ -33,6 +33,10 @@ Requests listing images json data for each `listing_id` in `listing_ids.csv` fro
 
 Pulls out the image links from each listing image json file and combines into a single csv data file saved in `output/listing_image_urls` as `image_links.csv` with the columns `listingID` and `singleImageLink`. 
 
+### Step 5: `npm run getOCR`
+
+Uses [tesseract](https://github.com/tesseract-ocr) to loop through the image links from each listing and pull out the text using OCR. Outputs the text into a csv data file saved in `output/listing_image_text` as `text.csv` with the columns `imageURL` and `text`.
+
 ## Notes
 
-Add in your own [Etsy API key](https://www.etsy.com/developers/documentation/getting_started/register) for Steps 2 & 4. Output files have been gitignored in this repo. First run 03/17/2021.
+Add in your own [Etsy API key](https://www.etsy.com/developers/documentation/getting_started/register) for Step 1. Output files have been gitignored in this repo. First run 03/17/2021.
