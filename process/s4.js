@@ -15,7 +15,12 @@ function getImageLinks(filename) {
 	if (file !== 'undefined') {
 		const rawData = JSON.parse(file)
 		const numImages = rawData.results.length;
-		const dataRange = d3.range(0, numImages);
+		
+		// Get ALL listing images
+		// const dataRange = d3.range(0, numImages);
+
+		// Get ONLY first listing image
+		const dataRange = d3.range(0, 1);
 		
 		dataRange.map(getSingleImage(rawData))
 	}

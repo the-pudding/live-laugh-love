@@ -14,6 +14,7 @@
 		"etsy-js": "0.0.6",
 		"fs": "0.0.1-security",
 		"json-concat": "0.0.1",
+		"lodash": "^4.17.21",
 		"lodash.debounce": "4.0.8",
 		"node-tesseract-ocr": "^2.0.0",
 		"nouislider": "13.1.5",
@@ -74,7 +75,9 @@
 		"getIDs": "node process/s2.js",
 		"getImages": "node process/s3.js",
 		"getImageLinks": "node process/s4.js",
-		"getOCR": "node process/s5.js"
+		"getOCR": "node process/s5.js",
+		"cleanText": "node process/s6.js",
+		"countWords": "node process/s7.js"
 	},
 	"repository": {
 		"type": "git",
